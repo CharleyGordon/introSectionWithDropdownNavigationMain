@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body data-grid>
+    <header data-flex data-align-items="center">
+      <nav data-flex data-align-items="center" data-width100>
+        <div class="logo"><img src="images/logo.svg" alt="" /></div>
+        <div class="hamburger"><img src="images/icon-menu.svg" alt="" /></div>
+        <ul class="nav-list" data-flex data-align-items="center" data-width100>
+          <li class="checkable">
+            <a href="" class="features">Features</a>
+            <ul class="features-list" data-grid>
+              <li class="todo-list"><a href="">todo list</a></li>
+              <li class="calendar"><a href="">calendar</a></li>
+              <li class="reminders"><a href="">reminders</a></li>
+              <li class="planning"><a href="">planning</a></li>
+            </ul>
+          </li>
+          <li class="checkable">
+            <a href="" class="company"> Company </a>
+            <ul class="company-list" data-grid>
+              <li><a href="">History</a></li>
+              <li><a href="">Our Team</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+          </li>
+          <li><a href="">Careers</a></li>
+          <li><a href=""> About </a></li>
+          <li data-text-center class="login"><a href=""> Login </a></li>
+          <li data-text-center>
+            <a class="register" data-width100 href="">Register</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main data-grid>
+      <div class="main-wrapper" data-grid>
+        <div class="hero-image">
+          <img
+            src="images/image-hero-mobile.png"
+            alt=""
+            srcset="
+              images/image-hero-mobile.png  800w,
+              images/image-hero-desktop.png 900w
+            "
+          />
+        </div>
+        <div class="text" data-grid>
+          <h1>Make remote work</h1>
+          <p class="description">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <a href="" class="learn-more">Learn more</a>
+        </div>
+        <div class="footer" data-flex data-align-items="center">
+          <ul class="footer-list" data-flex data-align-items="center">
+            <li><img src="images/client-databiz.svg" alt="" /></li>
+            <li><img src="images/client-audiophile.svg" alt="" /></li>
+            <li><img src="images/client-meet.svg" alt="" /></li>
+            <li><img src="images/client-maker.svg" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
