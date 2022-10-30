@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/CharleyGordon/introSectionWithDropdownNavigationMain)
-- Live Site URL: [](https://charleygordon.github.io/introSectionWithDropdownNavigationMain/)
+- Solution URL: https://github.com/CharleyGordon/introSectionWithDropdownNavigationMain
+- Live Site URL: https://charleygordon.github.io/introSectionWithDropdownNavigationMain/
 
 ## My process
 
